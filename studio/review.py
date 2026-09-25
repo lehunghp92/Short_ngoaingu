@@ -16,6 +16,7 @@ from typing import List
 from .langs import LANGS
 
 VI_WPS = 3.3                                    # tiếng Việt: âm tiết/giây (giọng 1.0x)
+CALIBRATION = 0.85                              # đo thực tế 8 video mẫu (VieNeu + Piper): thực tế ≈ 0.85 × ước lượng
 NATIVE_RATE = {"en": ("word", 2.6), "zh": ("char", 4.0), "ko": ("char", 5.0)}
 SCRIPT = {"zh": r"[一-鿿]", "ko": r"[가-힣ㄱ-ㅎㅏ-ㅣ]", "en": r"[A-Za-z]"}
 FOREIGN_SCRIPT = {"ko": r"[一-鿿]", "zh": r"[가-힣]", "en": r"[一-鿿가-힣]"}
@@ -60,7 +61,7 @@ def estimate_seconds(lesson: dict) -> float:
         if t.get("breakdown"):
             s = t["breakdown"]["sentence"]
             t_all += _nat_sec(lang, s) + 0.5 + _nat_sec(lang, s, 0.75)
-    return round(t_all, 1)
+    return round(t_all * CALIBRATION, 1)
 
 
 # ---------------- 1) kiểm tra theo quy tắc ----------------

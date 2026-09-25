@@ -132,6 +132,26 @@
     },
     {
       "who": "A",
+      "say": "Tay che trên mắt để nhìn xa, là chữ xem!",
+      "anatomy": {
+        "word": "看",
+        "parts": [
+          {
+            "text": "手",
+            "label": "thủ (tay)"
+          },
+          {
+            "text": "目",
+            "label": "mục (mắt)"
+          }
+        ],
+        "meaning": "nhìn, xem",
+        "han_viet": "KHÁN",
+        "tip": "Đưa tay lên che mắt để nhìn cho rõ"
+      }
+    },
+    {
+      "who": "A",
       "say": "Thử nhé: chữ nào nghĩa là nghỉ ngơi?",
       "mark": "quiz_q",
       "tag": "Quiz",
