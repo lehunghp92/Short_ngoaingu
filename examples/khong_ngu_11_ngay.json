@@ -1,0 +1,18 @@
+{
+  "title": "Điều gì xảy ra nếu bạn không ngủ 11 ngày?",
+  "language": "vi",
+  "topic": "thiếu ngủ cực độ",
+  "description": "Kỷ lục thức trắng 11 ngày của Randy Gardner năm 1964 và điều xảy ra với bộ não.",
+  "hashtags": ["#khoahoc", "#giaithich", "#giacngu", "#suckhoe", "#didyouknow"],
+  "scenes": [
+    {"beat": "hook", "text": "Điều gì sẽ xảy ra nếu bạn không ngủ suốt mười một ngày?", "overlay": "11 ngày", "visual": "a tired cartoon man with huge eyes staring at a calendar"},
+    {"beat": "dat_ban_vao", "text": "Ngày đầu tiên, bạn chỉ thấy mệt và thèm cà phê.", "overlay": "Ngày 1", "visual": "cartoon person holding a giant coffee cup"},
+    {"beat": "leo_thang_1", "text": "Sau hai mươi bốn giờ, phản xạ của bạn kém như người say rượu.", "overlay": "24 giờ", "visual": "cartoon driver swerving a car"},
+    {"beat": "leo_thang_2", "text": "Đến ngày thứ ba, não bắt đầu tự ngủ vài giây mà bạn không hề biết.", "overlay": "Ngủ vi mô", "visual": "cartoon brain with closed eyes"},
+    {"beat": "leo_thang_2", "text": "Bạn nhìn thấy những thứ không hề tồn tại.", "overlay": "Ảo giác", "visual": "cartoon person seeing floating ghosts"},
+    {"beat": "leo_thang_3", "text": "Năm 1964, cậu học sinh Randy Gardner đã thức trắng mười một ngày.", "overlay": "1964", "visual": "cartoon teenager in 1960s clothes under a clock"},
+    {"beat": "leo_thang_3", "text": "Cuối cùng cậu không nói nổi một câu hoàn chỉnh.", "overlay": "", "visual": "cartoon teen with jumbled speech bubble"},
+    {"beat": "twist", "text": "Bất ngờ là chỉ sau mười bốn giờ ngủ, cậu hồi phục gần như hoàn toàn.", "overlay": "14 giờ", "visual": "cartoon teen sleeping peacefully in bed with stars"},
+    {"beat": "ket_vong_lap", "text": "Vậy còn bạn, bạn đã thức lâu nhất bao nhiêu giờ?", "overlay": "Còn bạn?", "visual": "cartoon person pointing at viewer"}
+  ]
+}

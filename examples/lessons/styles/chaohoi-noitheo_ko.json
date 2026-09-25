@@ -1,0 +1,90 @@
+{
+  "lang": "ko",
+  "style": "noi_theo",
+  "series": "Luyện nói tiếng Hàn",
+  "episode": 1,
+  "background": "phong_khach",
+  "cast": {
+    "A": "co_giao",
+    "B": "bo"
+  },
+  "title": "Nói theo 3 câu chào hỏi tiếng Hàn mỗi ngày",
+  "description": "Luyện nói theo (shadowing) 3 câu chào hỏi tiếng Hàn cơ bản.",
+  "turns": [
+    {
+      "who": "A",
+      "say": "Nói theo ba câu này mỗi ngày, bạn sẽ nói tiếng Hàn trôi chảy hơn!",
+      "action": "vay_tay",
+      "expression": "vui"
+    },
+    {
+      "who": "A",
+      "say": "Câu thứ nhất, chào hỏi lịch sự:",
+      "native": "안녕하세요.",
+      "meaning": "Xin chào.",
+      "mark": "dung",
+      "repeat": true,
+      "shadow": 2.5,
+      "action": "chi_tay"
+    },
+    {
+      "who": "B",
+      "say": "An nhoong ha sê yô!",
+      "action": "vui_mung",
+      "expression": "vui"
+    },
+    {
+      "who": "A",
+      "say": "Gần đúng rồi, nhớ nói liền mạch và nhẹ nhàng hơn nhé.",
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "say": "Câu thứ hai, rất vui được gặp bạn:",
+      "native": "만나서 반갑습니다.",
+      "meaning": "Rất vui được gặp bạn.",
+      "mark": "dung",
+      "repeat": true,
+      "shadow": 3.0,
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "say": "Câu thứ ba, giới thiệu tên mình:",
+      "native": "저는 마이예요.",
+      "meaning": "Tôi là Mai.",
+      "mark": "dung",
+      "repeat": true,
+      "shadow": 2.5,
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "say": "Thay chữ Mai bằng tên của bạn nhé!",
+      "action": "vay_tay"
+    },
+    {
+      "who": "A",
+      "say": "Câu bonus, khi chia tay người lớn tuổi:",
+      "native": "안녕히 가세요.",
+      "meaning": "Tạm biệt (người đi).",
+      "mark": "dung",
+      "repeat": true,
+      "shadow": 2.5,
+      "action": "vay_tay"
+    },
+    {
+      "who": "B",
+      "say": "Mình nói được cả ba câu rồi!",
+      "action": "vui_mung",
+      "expression": "vui",
+      "clear_card": true
+    },
+    {
+      "who": "A",
+      "say": "Thử thách: bình luận tên bạn bằng tiếng Hàn nào!",
+      "action": "vay_tay",
+      "expression": "vui"
+    }
+  ]
+}

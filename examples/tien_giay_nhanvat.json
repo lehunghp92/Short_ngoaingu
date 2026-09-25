@@ -1,0 +1,17 @@
+{
+  "title": "Điều gì xảy ra nếu in thật nhiều tiền?",
+  "language": "vi",
+  "topic": "lạm phát",
+  "description": "Vì sao chính phủ không in thật nhiều tiền để ai cũng giàu? Giải thích lạm phát trong 30 giây.",
+  "hashtags": ["#kinhte", "#giaithich", "#lamphat", "#taichinh", "#hoccungbo"],
+  "scenes": [
+    {"beat": "hook", "text": "Nếu in thêm thật nhiều tiền, tại sao chúng ta không giàu lên?", "overlay": "In tiền?", "character": "bo", "action": "suy_nghi", "prop": "tien", "background": "thanh_pho"},
+    {"beat": "dat_ban_vao", "text": "Hãy tưởng tượng sáng nay ai cũng nhận được một triệu đồng miễn phí.", "overlay": "+1 triệu", "character": "mai", "action": "vui_mung", "prop": "tien", "background": "phong_khach"},
+    {"beat": "leo_thang_1", "text": "Bạn chạy ngay ra tiệm, định mua một cái bánh pizza.", "overlay": "", "character": "bo", "action": "chay", "background": "thanh_pho"},
+    {"beat": "leo_thang_2", "text": "Nhưng mọi người khác cũng có tiền, và đều muốn mua pizza.", "overlay": "", "character": "bo", "action": "bat_ngo", "character2": "mai", "action2": "chi_tay", "background": "thanh_pho"},
+    {"beat": "leo_thang_3", "text": "Pizza thì vẫn chỉ có bấy nhiêu, nên người bán tăng giá gấp đôi.", "overlay": "Giá x2", "character": "ong_gia", "action": "chi_tay", "prop": "pizza", "background": "phong_khach"},
+    {"beat": "leo_thang_3", "text": "Năm 2008, Zimbabwe in tiền đến mức giá cả tăng hàng tỷ lần.", "overlay": "Zimbabwe 2008", "character": "vua", "action": "run_so", "prop": "tien", "background": "lau_dai"},
+    {"beat": "twist", "text": "Giáo sư sẽ nói: tiền chỉ có giá trị khi có hàng hoá để mua.", "overlay": "Tiền ≠ của cải", "character": "giao_su", "action": "chi_tay", "prop": "bong_den", "background": "phong_thi_nghiem"},
+    {"beat": "ket_vong_lap", "text": "Vậy nếu được một điều ước, bạn sẽ ước in tiền, hay ước điều gì khác?", "overlay": "Còn bạn?", "character": "bo", "action": "vay_tay", "background": "thanh_pho"}
+  ]
+}

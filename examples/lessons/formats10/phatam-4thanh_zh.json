@@ -1,0 +1,129 @@
+{
+  "lang": "zh",
+  "style": "phat_am",
+  "series": "Phát âm chuẩn",
+  "episode": 1,
+  "background": "van_phong",
+  "cast": {
+    "A": "co_giao",
+    "B": "bo"
+  },
+  "title": "4 thanh điệu tiếng Trung: người Việt hay sai thanh 3",
+  "description": "Nhìn đường thanh điệu và khẩu hình, đọc theo từng chữ.",
+  "turns": [
+    {
+      "who": "A",
+      "say": "Đọc sai thanh là mẹ thành ngựa luôn đó!"
+    },
+    {
+      "who": "A",
+      "say": "Nghe và nhìn đường thanh nhé.",
+      "pron": {
+        "title": "4 THANH ĐIỆU",
+        "items": [
+          {
+            "text": "妈",
+            "meaning": "mẹ",
+            "mouth": "open",
+            "tip": "Ngang, cao, giữ đều"
+          },
+          {
+            "text": "麻",
+            "meaning": "cây gai",
+            "mouth": "open",
+            "tip": "Đi lên như hỏi 'hả?'"
+          },
+          {
+            "text": "马",
+            "meaning": "ngựa",
+            "mouth": "open",
+            "tip": "Xuống thấp rồi lên nhẹ"
+          },
+          {
+            "text": "骂",
+            "meaning": "mắng",
+            "mouth": "open",
+            "tip": "Rơi mạnh như ra lệnh"
+          }
+        ]
+      }
+    },
+    {
+      "who": "B",
+      "native": "马",
+      "meaning": "ngựa (Bơ đọc thành thanh 4)",
+      "mark": "sai",
+      "repeat": false,
+      "action": "run_so"
+    },
+    {
+      "who": "A",
+      "say": "Thanh ba phải xuống thấp trước rồi mới lên.",
+      "pron": {
+        "title": "THANH 3 vs THANH 4",
+        "items": [
+          {
+            "text": "马",
+            "meaning": "ngựa",
+            "mouth": "open",
+            "tip": "Xuống – lên"
+          },
+          {
+            "text": "骂",
+            "meaning": "mắng",
+            "mouth": "open",
+            "tip": "Rơi thẳng"
+          }
+        ]
+      }
+    },
+    {
+      "who": "A",
+      "say": "Giờ bạn đọc theo nhé!",
+      "native": "妈妈骂马",
+      "meaning": "Mẹ mắng con ngựa",
+      "mark": "dung",
+      "shadow": 2.5
+    },
+    {
+      "who": "A",
+      "say": "Bạn đọc đúng mấy thanh? Bình luận nhé!",
+      "action": "vay_tay"
+    },
+    {
+      "who": "A",
+      "say": "Thêm cặp dễ nhầm nữa nè.",
+      "pron": {
+        "title": "MÃI vs MÀI",
+        "items": [
+          {
+            "text": "买",
+            "meaning": "mua",
+            "mouth": "open",
+            "tip": "Thanh 3: xuống rồi lên"
+          },
+          {
+            "text": "卖",
+            "meaning": "bán",
+            "mouth": "open",
+            "tip": "Thanh 4: rơi mạnh"
+          }
+        ]
+      }
+    },
+    {
+      "who": "B",
+      "say": "Đọc sai là mua thành bán luôn hả cô?",
+      "action": "bat_ngo",
+      "expression": "soc"
+    },
+    {
+      "who": "A",
+      "say": "Đúng rồi! Đọc theo cô nhé.",
+      "native": "我买，你卖",
+      "meaning": "Tôi mua, bạn bán",
+      "mark": "dung",
+      "shadow": 2.5
+    }
+  ]
+}

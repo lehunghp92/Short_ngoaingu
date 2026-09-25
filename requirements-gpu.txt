@@ -1,0 +1,21 @@
+# ===== Dùng GPU NVIDIA trên PC =====
+# 1) Cài PyTorch bản CUDA TRƯỚC (chọn đúng phiên bản CUDA của driver):
+#      pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+#    (torch và torchaudio PHẢI cùng phiên bản, cài cùng một lệnh như trên)
+#    → VieNeu-TTS tự chạy trên GPU (backend PyTorch/CUDA), Stable Diffusion chạy fp16.
+# 2) Rồi cài các gói dưới đây:
+#      pip install -r requirements-gpu.txt
+# 3) Kiểm tra:  python check_gpu.py
+qwen-tts>=0.1          # Qwen3-TTS: giọng bản ngữ Trung/Hàn/Anh (model 0.6B tự tải ~2.5 GB lần đầu)
+# tuỳ chọn tăng tốc Qwen3-TTS trên GPU:  pip install flash-attn --no-build-isolation
+# muốn giọng hay hơn nữa (cần >= 8 GB VRAM): đặt biến SHORTS_QWEN_MODEL=Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice
+diffusers>=0.30
+transformers>=4.44
+accelerate>=0.33
+kokoro>=0.9
+soundfile>=0.12
+# Mã hoá video bằng NVENC: app tự thử h264_nvenc. Nếu check_gpu.py báo KHÔNG, cài ffmpeg bản đầy đủ
+# (Windows: winget install Gyan.FFmpeg) — app ưu tiên ffmpeg trong PATH, hoặc đặt biến SHORTS_FFMPEG.
+
+# ===== OmniVoice tiếng Việt (module dự phòng) =====
+# Cài ở MÔI TRƯỜNG RIÊNG (xung đột transformers với qwen-tts): chạy setup_omnivoice.bat (Windows) hoặc setup_omnivoice.sh

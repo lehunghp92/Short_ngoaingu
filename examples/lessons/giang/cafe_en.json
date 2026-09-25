@@ -1,0 +1,13 @@
+{
+  "lang": "en", "series": "Tiếng Anh đi cà phê", "episode": 1, "topic_key": "cafe",
+  "title": "Gọi cà phê bằng tiếng Anh: đừng nói 'Give me'!",
+  "hook": "Gọi cà phê bằng tiếng Anh, chín mươi phần trăm người Việt nói câu này!",
+  "items": [
+    {"type": "sai_dung", "wrong": "Give me a coffee.", "right": "Could I get a coffee, please?",
+     "meaning": "Cho tôi một ly cà phê được không?", "wrong_note": "Nghe cộc lốc",
+     "note": "Could I get nghe lịch sự và tự nhiên hơn nhiều."},
+    {"type": "quiz", "question": "Muốn mang đi thì nói thế nào?", "answer": "To go, please.", "meaning": "Mang đi nhé."}
+  ],
+  "cta": "Lưu video lại để lần sau gọi món thật tự tin nhé!",
+  "description": "Cách gọi cà phê lịch sự bằng tiếng Anh. Series Tiếng Anh đi cà phê tập 1."
+}

@@ -1,0 +1,140 @@
+{
+  "lang": "ko",
+  "style": "so_sanh_3",
+  "series": "1 câu 3 thứ tiếng",
+  "episode": 1,
+  "background": "van_phong",
+  "cast": {
+    "A": "co_giao",
+    "B": "bo"
+  },
+  "title": "Cảm ơn, xin lỗi, chào: 3 thứ tiếng nói thế nào?",
+  "description": "Cùng một câu tiếng Việt bằng tiếng Anh, tiếng Trung, tiếng Hàn. Nhìn ra điểm giống Hán-Việt!",
+  "turns": [
+    {
+      "who": "A",
+      "say": "“Cảm ơn” bằng 3 thứ tiếng?"
+    },
+    {
+      "who": "A",
+      "meaning": "Cảm ơn",
+      "compare": [
+        {
+          "lang": "en",
+          "text": "Thank you"
+        },
+        {
+          "lang": "zh",
+          "text": "谢谢"
+        },
+        {
+          "lang": "ko",
+          "text": "감사합니다"
+        }
+      ]
+    },
+    {
+      "who": "B",
+      "say": "Ơ, 감사 nghe giống cảm tạ trong tiếng Việt!",
+      "action": "bat_ngo",
+      "expression": "soc"
+    },
+    {
+      "who": "A",
+      "meaning": "Xin lỗi",
+      "compare": [
+        {
+          "lang": "en",
+          "text": "I'm sorry"
+        },
+        {
+          "lang": "zh",
+          "text": "对不起"
+        },
+        {
+          "lang": "ko",
+          "text": "죄송합니다"
+        }
+      ]
+    },
+    {
+      "who": "A",
+      "meaning": "Hẹn gặp lại",
+      "compare": [
+        {
+          "lang": "en",
+          "text": "See you again"
+        },
+        {
+          "lang": "zh",
+          "text": "再见"
+        },
+        {
+          "lang": "ko",
+          "text": "또 만나요"
+        }
+      ]
+    },
+    {
+      "who": "B",
+      "say": "Tiếng Trung ngắn nhất, tiếng Hàn lịch sự nhất!",
+      "action": "vui_mung"
+    },
+    {
+      "who": "B",
+      "say": "Còn câu chúc ngủ ngon thì sao cô?",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "A",
+      "meaning": "Chúc ngủ ngon",
+      "compare": [
+        {
+          "lang": "en",
+          "text": "Good night"
+        },
+        {
+          "lang": "zh",
+          "text": "晚安"
+        },
+        {
+          "lang": "ko",
+          "text": "안녕히 주무세요"
+        }
+      ]
+    },
+    {
+      "who": "A",
+      "say": "Tiếng Hàn dùng cho người lớn, với bạn bè chỉ cần 잘 자."
+    },
+    {
+      "who": "A",
+      "meaning": "Chúc mừng sinh nhật",
+      "compare": [
+        {
+          "lang": "en",
+          "text": "Happy birthday"
+        },
+        {
+          "lang": "zh",
+          "text": "生日快乐"
+        },
+        {
+          "lang": "ko",
+          "text": "생일 축하해요"
+        }
+      ]
+    },
+    {
+      "who": "B",
+      "say": "Sinh nhật là 生日 và 생일, giống sinh nhật tiếng Việt luôn!",
+      "action": "bat_ngo",
+      "expression": "soc"
+    },
+    {
+      "who": "A",
+      "say": "Bạn thích tiếng nào nhất?",
+      "action": "vay_tay"
+    }
+  ]
+}

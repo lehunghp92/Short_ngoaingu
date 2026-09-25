@@ -1,0 +1,105 @@
+{
+  "lang": "zh",
+  "series": "Tiếng Trung đi cà phê",
+  "episode": 1,
+  "topic_key": "cafe",
+  "title": "Gọi cà phê bằng tiếng Trung: đừng nói 给我!",
+  "description": "Bơ và Mai học cách gọi cà phê tự nhiên bằng tiếng Trung. Series Tiếng Trung đi cà phê tập 1.",
+  "turns": [
+    {
+      "who": "A",
+      "say": "Mai ơi, vào quán cà phê ở Trung Quốc thì nói gì đầu tiên?",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "B",
+      "say": "Nhiều bạn nói câu này, nghe như đang ra lệnh:",
+      "native": "给我咖啡。",
+      "meaning": "Đưa tôi cà phê.",
+      "mark": "sai",
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "say": "Trời, mình toàn nói như vậy!",
+      "action": "bat_ngo",
+      "expression": "soc"
+    },
+    {
+      "who": "B",
+      "say": "Người bản xứ sẽ nói thế này:",
+      "native": "我要一杯咖啡。",
+      "meaning": "Tôi muốn một ly cà phê.",
+      "mark": "dung",
+      "action": "chi_tay",
+      "expression": "vui"
+    },
+    {
+      "who": "A",
+      "say": "Chữ 杯 ở giữa nghĩa là gì vậy?",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "B",
+      "say": "Là ly, cốc. Muốn hai ly thì đổi 一 thành 两 nhé.",
+      "action": "vay_tay"
+    },
+    {
+      "who": "B",
+      "say": "Ví dụ gọi hai ly thì nói:",
+      "native": "我要两杯咖啡。",
+      "meaning": "Tôi muốn hai ly cà phê.",
+      "mark": "dung",
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "say": "Thế muốn ít đường thì nói sao Mai?",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "B",
+      "say": "Bạn chỉ cần thêm câu này:",
+      "native": "少糖，谢谢。",
+      "meaning": "Ít đường, cảm ơn.",
+      "mark": "dung",
+      "action": "vay_tay"
+    },
+    {
+      "who": "B",
+      "say": "Còn cà phê sữa latte thì gọi là:",
+      "native": "拿铁",
+      "meaning": "Cà phê latte",
+      "mark": "tu",
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "say": "Đố bạn: muốn mang đi thì nói thế nào?",
+      "mark": "quiz_q",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "B",
+      "say": "Đáp án là:",
+      "native": "打包。",
+      "meaning": "Mang đi.",
+      "mark": "dung",
+      "action": "vui_mung",
+      "expression": "vui"
+    },
+    {
+      "who": "A",
+      "say": "Ngắn gọn thế thôi à? Dễ nhớ quá!",
+      "action": "vui_mung",
+      "expression": "vui",
+      "clear_card": true
+    },
+    {
+      "who": "B",
+      "say": "Lưu lại để ôn nhé! Tập sau học cách trả tiền.",
+      "action": "vay_tay",
+      "expression": "vui"
+    }
+  ]
+}

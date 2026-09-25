@@ -1,0 +1,190 @@
+{
+  "name": "Đầu bếp",
+  "height": 1080,
+  "parts": [
+    {
+      "name": "body",
+      "image": "body.png",
+      "pivot": [
+        150.0,
+        375.0
+      ],
+      "parent": null,
+      "z": 3
+    },
+    {
+      "name": "leg_l",
+      "image": "leg.png",
+      "pivot": [
+        67.5,
+        33.0
+      ],
+      "parent": "body",
+      "offset": [
+        -60.0,
+        -18.0
+      ],
+      "z": 1
+    },
+    {
+      "name": "leg_r",
+      "image": "leg.png",
+      "pivot": [
+        67.5,
+        33.0
+      ],
+      "parent": "body",
+      "offset": [
+        60.0,
+        -18.0
+      ],
+      "z": 1
+    },
+    {
+      "name": "head",
+      "image": "head.png",
+      "pivot": [
+        225.0,
+        454.5
+      ],
+      "parent": "body",
+      "offset": [
+        0.0,
+        -333.0
+      ],
+      "z": 5
+    },
+    {
+      "name": "arm_l",
+      "image": "arm.png",
+      "pivot": [
+        61.5,
+        33.0
+      ],
+      "parent": "body",
+      "offset": [
+        -111.0,
+        -312.0
+      ],
+      "z": 2,
+      "rest": 12
+    },
+    {
+      "name": "forearm_l",
+      "image": "forearm.png",
+      "pivot": [
+        57.0,
+        33.0
+      ],
+      "parent": "arm_l",
+      "offset": [
+        0.0,
+        156.0
+      ],
+      "z": 2
+    },
+    {
+      "name": "arm_r",
+      "image": "arm.png",
+      "pivot": [
+        61.5,
+        33.0
+      ],
+      "parent": "body",
+      "offset": [
+        111.0,
+        -312.0
+      ],
+      "z": 6,
+      "rest": -12
+    },
+    {
+      "name": "forearm_r",
+      "image": "forearm.png",
+      "pivot": [
+        57.0,
+        33.0
+      ],
+      "parent": "arm_r",
+      "offset": [
+        0.0,
+        156.0
+      ],
+      "z": 6
+    }
+  ],
+  "face": {
+    "eyes": {
+      "mo": "eyes_mo.png",
+      "nham": "eyes_nham.png",
+      "to": "eyes_to.png",
+      "nheo": "eyes_nheo.png"
+    },
+    "mouth": {
+      "ngam": "mouth_ngam.png",
+      "vua": "mouth_vua.png",
+      "to": "mouth_to.png",
+      "buon": "mouth_buon.png",
+      "cuoi": "mouth_cuoi.png"
+    },
+    "brows": {
+      "binh_thuong": "brows_binh_thuong.png",
+      "cau": "brows_cau.png",
+      "nhuong": "brows_nhuong.png",
+      "buon": "brows_buon.png"
+    }
+  },
+  "face_anchor": {
+    "brows": [
+      225.0,
+      219.0
+    ],
+    "eyes": [
+      225.0,
+      273.0
+    ],
+    "mouth": [
+      225.0,
+      384.0
+    ],
+    "glasses": [
+      225.0,
+      273.0
+    ]
+  },
+  "hand": {
+    "part": "forearm_r",
+    "point": [
+      57.0,
+      183.0
+    ]
+  },
+  "expressions": {
+    "vui": {
+      "eyes": "nheo",
+      "mouth": "cuoi",
+      "mouth_talk": "cuoi",
+      "brows": "nhuong"
+    },
+    "soc": {
+      "eyes": "to",
+      "mouth": "to",
+      "brows": "nhuong"
+    },
+    "buon": {
+      "mouth": "buon",
+      "brows": "buon"
+    },
+    "gian": {
+      "brows": "cau",
+      "mouth": "ngam"
+    },
+    "nghi": {
+      "eyes": "nheo",
+      "brows": "cau"
+    }
+  },
+  "stature": 1.0,
+  "gender": "nam",
+  "role": "nấu ăn, nhà hàng"
+}

@@ -1,0 +1,22 @@
+{
+  "lang": "en", "style": "giao_tiep", "series": "Tiếng Anh du lịch", "episode": 1, "background": "san_bay",
+  "cast": {"A": "du_khach", "B": "nhan_vien"},
+  "title": "Check-in sân bay bằng tiếng Anh trong 45 giây",
+  "description": "Tình huống thật khi làm thủ tục ở quầy check-in sân bay quốc tế.",
+  "turns": [
+    {"who": "N", "say": "Lần đầu đi máy bay nước ngoài? Đây là những câu ở quầy check-in."},
+    {"who": "B", "native": "Good morning. Passport, please.", "meaning": "Chào buổi sáng. Vui lòng cho xem hộ chiếu.", "mark": "thoai", "action": "vay_tay", "item": "ho_chieu"},
+    {"who": "A", "native": "Here you are.", "meaning": "Của bạn đây.", "mark": "thoai", "action": "chi_tay", "item": "ho_chieu"},
+    {"who": "N", "say": "Khi đưa đồ cho ai đó, nói Here you are là lịch sự nhất.", "item": "ho_chieu"},
+    {"who": "B", "native": "Where are you flying today?", "meaning": "Hôm nay bạn bay đi đâu?", "mark": "thoai", "action": "suy_nghi"},
+    {"who": "A", "native": "To Seoul.", "meaning": "Đi Seoul.", "mark": "thoai", "action": "chi_tay", "item": "ve"},
+    {"who": "B", "native": "Any bags to check?", "meaning": "Có hành lý ký gửi không?", "mark": "thoai", "action": "chi_tay", "item": "va_li"},
+    {"who": "A", "native": "Yes, just one.", "meaning": "Có, chỉ một cái.", "mark": "thoai", "action": "chi_tay", "item": "va_li"},
+    {"who": "N", "say": "Check a bag nghĩa là gửi hành lý, không phải kiểm tra túi đâu nhé!", "item": "va_li"},
+    {"who": "A", "native": "Can I have a window seat?", "meaning": "Cho tôi ghế cạnh cửa sổ được không?", "mark": "dung", "repeat": true, "action": "suy_nghi"},
+    {"who": "B", "native": "Sure. Here's your boarding pass.", "meaning": "Được ạ. Thẻ lên máy bay của bạn đây.", "mark": "thoai", "action": "chi_tay", "item": "ve"},
+    {"who": "B", "native": "Boarding starts at nine thirty.", "meaning": "Bắt đầu lên máy bay lúc chín giờ ba mươi.", "mark": "thoai", "action": "chi_tay", "item": "ve", "price": "9:30"},
+    {"who": "A", "native": "Thank you so much!", "meaning": "Cảm ơn nhiều!", "mark": "thoai", "action": "vui_mung", "expression": "vui"},
+    {"who": "N", "say": "Lưu lại trước chuyến bay tiếp theo nhé!", "clear_card": true}
+  ]
+}

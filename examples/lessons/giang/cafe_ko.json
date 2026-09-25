@@ -1,0 +1,16 @@
+{
+  "lang": "ko", "series": "Tiếng Hàn đi cà phê", "episode": 1, "topic_key": "cafe",
+  "title": "Gọi cà phê ở Hàn Quốc: nói câu này là chuẩn!",
+  "hook": "Gọi cà phê ở Hàn Quốc, nói câu này là chuẩn nhất!",
+  "items": [
+    {"type": "sai_dung", "wrong": "커피 줘.", "right": "아메리카노 한 잔 주세요.",
+     "meaning": "Cho tôi một ly Americano.", "wrong_note": "Nói trống không, thiếu lịch sự",
+     "note": "Thêm 주세요 ở cuối câu để lịch sự khi gọi món."},
+    {"type": "hoi_thoai", "lines": [
+      {"who": "B", "text": "드시고 가세요?", "meaning": "Uống ở đây hay mang đi ạ?"},
+      {"who": "A", "text": "포장해 주세요.", "meaning": "Cho tôi mang đi."}
+    ]}
+  ],
+  "cta": "Lưu lại để đi Hàn không bỡ ngỡ nhé!",
+  "description": "Gọi cà phê bằng tiếng Hàn. Series Tiếng Hàn đi cà phê tập 1."
+}

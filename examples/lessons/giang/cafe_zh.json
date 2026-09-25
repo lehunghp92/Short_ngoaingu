@@ -1,0 +1,14 @@
+{
+  "lang": "zh", "series": "Tiếng Trung đi cà phê", "episode": 1, "topic_key": "cafe",
+  "title": "Gọi cà phê bằng tiếng Trung chỉ với 1 câu",
+  "hook": "Vào quán cà phê ở Trung Quốc, chỉ cần nhớ đúng một câu này!",
+  "items": [
+    {"type": "sai_dung", "wrong": "给我咖啡。", "right": "我要一杯咖啡。",
+     "meaning": "Tôi muốn một ly cà phê.", "wrong_note": "Nghe như ra lệnh",
+     "note": "Dùng 我要 cộng số lượng, nghe tự nhiên như người bản xứ."},
+    {"type": "tu_vung", "word": "拿铁", "meaning": "cà phê latte", "prop": "ca_phe"},
+    {"type": "quiz", "question": "Muốn mang đi thì nói thế nào?", "answer": "打包。", "meaning": "Mang đi."}
+  ],
+  "cta": "Lưu lại để ôn nhé! Tập sau học cách trả tiền.",
+  "description": "Gọi cà phê bằng tiếng Trung. Series Tiếng Trung đi cà phê tập 1."
+}

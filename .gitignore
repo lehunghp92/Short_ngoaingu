@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+projects/
+models/
+assets/fonts/
+preview_*.png
+g2pW/
+*.onnx
+venv-omnivoice/
+.venv/

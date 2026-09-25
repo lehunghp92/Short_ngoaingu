@@ -1,0 +1,115 @@
+{
+  "lang": "en",
+  "style": "top_sai",
+  "series": "Tiếng Anh công sở",
+  "episode": 1,
+  "background": "van_phong",
+  "cast": {
+    "A": "bo",
+    "B": "co_giao"
+  },
+  "title": "Top 3 câu tiếng Anh công sở người Việt hay nói sai",
+  "description": "3 lỗi tiếng Anh công sở phổ biến và cách nói đúng. Series Tiếng Anh công sở tập 1.",
+  "turns": [
+    {
+      "who": "B",
+      "say": "Ba câu tiếng Anh công sở người Việt hay nói sai nhất!",
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "say": "Lỗi số ba, khi muốn nói tôi đồng ý:",
+      "native": "I am agree.",
+      "meaning": "Tôi đồng ý.",
+      "mark": "sai",
+      "tag": "#3",
+      "action": "vui_mung"
+    },
+    {
+      "who": "B",
+      "say": "Agree đã là động từ, không cần am:",
+      "native": "I agree.",
+      "meaning": "Tôi đồng ý.",
+      "mark": "dung",
+      "tag": "#3",
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "say": "Ra vậy, hoá ra agree tự nó đã là động từ!",
+      "action": "suy_nghi",
+      "expression": "nghi"
+    },
+    {
+      "who": "A",
+      "say": "Lỗi số hai, khi hỏi về cuộc họp:",
+      "native": "What time the meeting?",
+      "meaning": "Mấy giờ họp?",
+      "mark": "sai",
+      "tag": "#2",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "B",
+      "say": "Thiếu động từ is rồi:",
+      "native": "What time is the meeting?",
+      "meaning": "Cuộc họp lúc mấy giờ?",
+      "mark": "dung",
+      "tag": "#2",
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "say": "Ơ, mình vẫn hay nói thiếu như vậy!",
+      "action": "bat_ngo",
+      "expression": "soc"
+    },
+    {
+      "who": "A",
+      "say": "Và lỗi số một, khi muốn hỏi lại sếp:",
+      "native": "Can you repeat again?",
+      "meaning": "Bạn nhắc lại lần nữa được không?",
+      "mark": "sai",
+      "tag": "#1",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "B",
+      "say": "Repeat đã có nghĩa là lặp lại, bỏ chữ again đi:",
+      "native": "Could you say that again?",
+      "meaning": "Bạn có thể nói lại không?",
+      "mark": "dung",
+      "tag": "#1",
+      "action": "chi_tay",
+      "expression": "vui"
+    },
+    {
+      "who": "A",
+      "say": "Hoá ra câu số một mình sai suốt bao năm nay!",
+      "action": "buon",
+      "expression": "buon"
+    },
+    {
+      "who": "B",
+      "say": "Nhắc lại ba câu đúng nhé, câu dễ dùng nhất là:",
+      "native": "Could you say that again?",
+      "meaning": "Bạn có thể nói lại không?",
+      "mark": "dung",
+      "repeat": true,
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "say": "Lần sau họp mình sẽ tự tin nói câu này!",
+      "action": "vui_mung",
+      "expression": "vui"
+    },
+    {
+      "who": "B",
+      "say": "Bạn đã từng mắc lỗi nào? Bình luận cho mình biết nhé!",
+      "action": "vay_tay",
+      "expression": "vui",
+      "clear_card": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "lang": "en",
+  "style": "ke_chuyen",
+  "series": "Truyện chêm tiếng Anh",
+  "episode": 1,
+  "background": "van_phong",
+  "cast": {
+    "A": "bo",
+    "B": "ong_chu"
+  },
+  "title": "Chuyện Bơ đi phỏng vấn bằng tiếng Anh",
+  "description": "Truyện chêm hài hước: học từ tiếng Anh khi đi phỏng vấn xin việc.",
+  "turns": [
+    {
+      "who": "N",
+      "say": "Chuyện Bơ lần đầu đi phỏng vấn bằng tiếng Anh."
+    },
+    {
+      "who": "N",
+      "say": "Bơ bước vào, run đến mức quên cả chào."
+    },
+    {
+      "who": "B",
+      "say": "Ông chủ mỉm cười và nói:",
+      "native": "Please have a seat.",
+      "meaning": "Mời bạn ngồi.",
+      "mark": "tu",
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "say": "Bơ vội ngồi xuống, tim đập thình thịch.",
+      "action": "run_so",
+      "expression": "soc"
+    },
+    {
+      "who": "B",
+      "say": "Ông hỏi:",
+      "native": "Tell me about yourself.",
+      "meaning": "Hãy giới thiệu về bản thân.",
+      "mark": "tu",
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "say": "Bơ trả lời, giọng hơi run:",
+      "native": "I am a hard worker.",
+      "meaning": "Tôi là người chăm chỉ.",
+      "mark": "tu",
+      "action": "chi_tay"
+    },
+    {
+      "who": "B",
+      "say": "Ông chủ gật gù rồi hỏi về điểm yếu:",
+      "native": "What is your weakness?",
+      "meaning": "Điểm yếu của bạn là gì?",
+      "mark": "tu",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "A",
+      "say": "Bơ suy nghĩ rất lâu rồi thật thà nói: tiếng Anh!",
+      "action": "suy_nghi",
+      "expression": "buon"
+    },
+    {
+      "who": "N",
+      "say": "Cả phòng cười ồ lên. Bất ngờ là ông chủ nói:",
+      "action": "vui_mung"
+    },
+    {
+      "who": "B",
+      "native": "You're hired!",
+      "meaning": "Bạn được nhận!",
+      "mark": "dung",
+      "action": "vui_mung",
+      "expression": "vui"
+    },
+    {
+      "who": "A",
+      "say": "Bơ vui đến mức nhảy cẫng lên!",
+      "action": "vui_mung",
+      "expression": "vui",
+      "clear_card": true
+    },
+    {
+      "who": "N",
+      "say": "Hoá ra ông chủ cần một người trung thực, và Bơ đã thật thà nhất!"
+    },
+    {
+      "who": "N",
+      "say": "Bạn nhớ được mấy câu trong truyện? Bình luận nhé!"
+    }
+  ]
+}

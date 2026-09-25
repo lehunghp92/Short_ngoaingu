@@ -1,0 +1,16 @@
+# Lõi (CPU, không cần GPU)
+gradio>=6.0,<7
+pillow>=10.0
+numpy>=1.26
+pandas>=2.0
+requests>=2.31
+imageio-ffmpeg>=0.5     # kèm sẵn ffmpeg
+piper-tts>=1.3          # giọng Việt/Anh offline
+# Bài học ngoại ngữ: phiên âm + phonemizer tiếng Trung của Piper
+pypinyin>=0.51
+korean-romanizer>=0.25
+eng-to-ipa>=0.0.2
+unicode-rbnf>=2.0
+# Giọng tiếng Việt VieNeu-TTS (25 giọng mẫu, chạy CPU qua ONNX). onnxruntime >= 1.23 đang lỗi đường dẫn model
+vieneu>=1.0
+onnxruntime<1.23

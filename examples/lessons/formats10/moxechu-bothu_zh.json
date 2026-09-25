@@ -1,0 +1,154 @@
+{
+  "lang": "zh",
+  "style": "mo_xe_chu",
+  "series": "Mổ xẻ chữ Hán",
+  "episode": 1,
+  "background": "van_phong",
+  "cast": {
+    "A": "co_giao",
+    "B": "bo"
+  },
+  "title": "Chữ 好, 明, 休: nhìn là nhớ nghĩa",
+  "description": "Tách chữ Hán thành bộ thủ để nhớ nghĩa mãi không quên.",
+  "turns": [
+    {
+      "who": "A",
+      "say": "Chữ Hán không khó nếu bạn biết tách nó ra!"
+    },
+    {
+      "who": "A",
+      "say": "Nữ cộng tử, có vợ có con là tốt.",
+      "anatomy": {
+        "word": "好",
+        "parts": [
+          {
+            "text": "女",
+            "label": "nữ (phụ nữ)"
+          },
+          {
+            "text": "子",
+            "label": "tử (con)"
+          }
+        ],
+        "meaning": "tốt, hay",
+        "han_viet": "HẢO",
+        "tip": "Có mẹ có con là điều tốt đẹp"
+      }
+    },
+    {
+      "who": "A",
+      "say": "Mặt trời cộng mặt trăng, sáng quá!",
+      "anatomy": {
+        "word": "明",
+        "parts": [
+          {
+            "text": "日",
+            "label": "nhật (mặt trời)"
+          },
+          {
+            "text": "月",
+            "label": "nguyệt (mặt trăng)"
+          }
+        ],
+        "meaning": "sáng",
+        "han_viet": "MINH",
+        "tip": "Cả mặt trời và mặt trăng cùng chiếu"
+      }
+    },
+    {
+      "who": "B",
+      "say": "Còn người dựa vào cây là gì cô?",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "A",
+      "say": "Là nghỉ ngơi đó!",
+      "anatomy": {
+        "word": "休",
+        "parts": [
+          {
+            "text": "亻",
+            "label": "nhân (người)"
+          },
+          {
+            "text": "木",
+            "label": "mộc (cây)"
+          }
+        ],
+        "meaning": "nghỉ ngơi",
+        "han_viet": "HƯU",
+        "tip": "Người dựa gốc cây nghỉ mát"
+      }
+    },
+    {
+      "who": "A",
+      "say": "Lưu lại để nhớ lâu nhé!",
+      "action": "vay_tay"
+    },
+    {
+      "who": "A",
+      "say": "Ruộng cộng sức lực, là người đàn ông!",
+      "anatomy": {
+        "word": "男",
+        "parts": [
+          {
+            "text": "田",
+            "label": "điền (ruộng)"
+          },
+          {
+            "text": "力",
+            "label": "lực (sức)"
+          }
+        ],
+        "meaning": "nam, đàn ông",
+        "han_viet": "NAM",
+        "tip": "Người dùng sức làm ruộng"
+      }
+    },
+    {
+      "who": "B",
+      "say": "Vậy mái nhà có người phụ nữ là gì?",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "A",
+      "say": "Là bình an đó!",
+      "anatomy": {
+        "word": "安",
+        "parts": [
+          {
+            "text": "宀",
+            "label": "miên (mái nhà)"
+          },
+          {
+            "text": "女",
+            "label": "nữ (phụ nữ)"
+          }
+        ],
+        "meaning": "yên ổn, an toàn",
+        "han_viet": "AN",
+        "tip": "Trong nhà có mẹ là yên ổn"
+      }
+    },
+    {
+      "who": "A",
+      "say": "Thử nhé: chữ nào nghĩa là nghỉ ngơi?",
+      "mark": "quiz_q",
+      "tag": "Quiz",
+      "options": [
+        "好",
+        "休",
+        "男"
+      ],
+      "answer": 1
+    },
+    {
+      "who": "B",
+      "native": "休",
+      "meaning": "nghỉ ngơi (xiū)",
+      "mark": "dung",
+      "tag": "Quiz",
+      "action": "vui_mung"
+    }
+  ]
+}

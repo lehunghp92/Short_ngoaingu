@@ -1,0 +1,18 @@
+{
+  "lang": "en", "series": "Tiếng Anh đi cà phê", "episode": 1, "topic_key": "cafe",
+  "title": "Gọi cà phê bằng tiếng Anh: đừng nói 'Give me'!",
+  "description": "Bơ và Mai học cách gọi cà phê lịch sự bằng tiếng Anh. Series Tiếng Anh đi cà phê tập 1.",
+  "turns": [
+    {"who": "A", "say": "Mai ơi, gọi cà phê bằng tiếng Anh mà bị nhân viên nhìn lạ là sao?", "action": "suy_nghi", "expression": "buon"},
+    {"who": "B", "say": "Chắc bạn nói câu này rồi, nghe hơi cộc lốc:", "native": "Give me a coffee.", "meaning": "Đưa tôi cà phê.", "mark": "sai", "action": "chi_tay"},
+    {"who": "A", "say": "Đúng rồi, mình nói y chang luôn!", "action": "bat_ngo", "expression": "soc"},
+    {"who": "B", "say": "Thử nói lịch sự thế này nhé:", "native": "Could I get a coffee, please?", "meaning": "Cho tôi một ly cà phê được không?", "mark": "dung", "action": "chi_tay", "expression": "vui"},
+    {"who": "A", "say": "Nghe mềm mại hơn hẳn! Còn size lớn thì sao?", "action": "suy_nghi"},
+    {"who": "B", "say": "Chỉ cần thêm chữ large vào trước coffee:", "native": "A large coffee, please.", "meaning": "Cho tôi một ly cà phê cỡ lớn.", "mark": "dung", "action": "vay_tay"},
+    {"who": "A", "say": "Đố bạn: muốn mang đi thì nói thế nào?", "mark": "quiz_q", "action": "suy_nghi"},
+    {"who": "B", "say": "Đáp án là:", "native": "To go, please.", "meaning": "Mang đi nhé.", "mark": "dung", "action": "vui_mung", "expression": "vui"},
+    {"who": "A", "say": "Còn uống tại quán thì sao Mai?", "action": "suy_nghi"},
+    {"who": "B", "say": "Thì nói là:", "native": "For here, please.", "meaning": "Uống tại đây.", "mark": "dung", "action": "chi_tay"},
+    {"who": "A", "say": "Nhớ rồi! Lưu video lại để ôn nhé các bạn!", "action": "vay_tay", "expression": "vui", "clear_card": true}
+  ]
+}

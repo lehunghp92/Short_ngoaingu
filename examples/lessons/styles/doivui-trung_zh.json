@@ -1,0 +1,114 @@
+{
+  "lang": "zh",
+  "style": "do_vui",
+  "series": "Đố vui tiếng Trung",
+  "episode": 1,
+  "background": "phong_thi_nghiem",
+  "cast": {
+    "A": "mai",
+    "B": "bo"
+  },
+  "title": "Đố vui tiếng Trung: bạn trả lời được mấy câu?",
+  "description": "Game show 3 câu hỏi tiếng Trung giao tiếp cơ bản.",
+  "turns": [
+    {
+      "who": "A",
+      "say": "Chào mừng đến game show tiếng Trung! Bạn trả lời được mấy câu?",
+      "action": "vay_tay",
+      "expression": "vui"
+    },
+    {
+      "who": "A",
+      "say": "Câu một: cảm ơn nói thế nào?",
+      "mark": "quiz_q",
+      "tag": "Câu 1/3",
+      "action": "chi_tay"
+    },
+    {
+      "who": "B",
+      "say": "Dễ quá!",
+      "native": "谢谢。",
+      "meaning": "Cảm ơn.",
+      "mark": "dung",
+      "tag": "Câu 1/3",
+      "action": "vui_mung",
+      "expression": "vui"
+    },
+    {
+      "who": "A",
+      "say": "Quá dễ với Bơ! Câu tiếp theo khó hơn đấy nhé.",
+      "action": "chi_tay",
+      "expression": "vui"
+    },
+    {
+      "who": "A",
+      "say": "Chính xác! Câu hai: xin lỗi nói thế nào?",
+      "mark": "quiz_q",
+      "tag": "Câu 2/3",
+      "action": "chi_tay"
+    },
+    {
+      "who": "B",
+      "say": "Là câu này phải không?",
+      "native": "没关系。",
+      "meaning": "Không sao đâu.",
+      "mark": "sai",
+      "tag": "Câu 2/3",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "A",
+      "say": "Sai rồi! Câu đó nghĩa là không sao. Xin lỗi phải là:",
+      "native": "对不起。",
+      "meaning": "Xin lỗi.",
+      "mark": "dung",
+      "tag": "Câu 2/3",
+      "action": "chi_tay"
+    },
+    {
+      "who": "B",
+      "say": "Ôi, mình nhầm mất rồi!",
+      "action": "buon",
+      "expression": "buon"
+    },
+    {
+      "who": "A",
+      "say": "Câu cuối: tạm biệt nói thế nào?",
+      "mark": "quiz_q",
+      "tag": "Câu 3/3",
+      "action": "chi_tay"
+    },
+    {
+      "who": "B",
+      "say": "Câu này thì chắc chắn đúng:",
+      "native": "再见！",
+      "meaning": "Tạm biệt!",
+      "mark": "dung",
+      "tag": "Câu 3/3",
+      "action": "vui_mung",
+      "expression": "vui"
+    },
+    {
+      "who": "A",
+      "say": "Giỏi lắm! Bơ được hai trên ba điểm.",
+      "action": "vui_mung",
+      "expression": "vui",
+      "clear_card": true
+    },
+    {
+      "who": "A",
+      "say": "Nhớ nhé, xin lỗi là câu này:",
+      "native": "对不起。",
+      "meaning": "Xin lỗi.",
+      "mark": "dung",
+      "repeat": true,
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "say": "Còn bạn được mấy điểm? Bình luận ngay nhé!",
+      "action": "vay_tay",
+      "expression": "vui"
+    }
+  ]
+}

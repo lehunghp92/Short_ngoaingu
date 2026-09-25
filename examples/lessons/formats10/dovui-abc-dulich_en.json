@@ -1,0 +1,111 @@
+{
+  "lang": "en",
+  "style": "do_vui",
+  "series": "Đố vui tiếng Anh",
+  "episode": 3,
+  "background": "vu_tru",
+  "cast": {
+    "A": "mai",
+    "B": "bo"
+  },
+  "title": "Đố vui A/B/C: tiếng Anh du lịch, bạn được mấy điểm?",
+  "description": "3 câu trắc nghiệm có đếm ngược. Bình luận số điểm của bạn!",
+  "turns": [
+    {
+      "who": "A",
+      "say": "Đố bạn 3 câu tiếng Anh du lịch!",
+      "action": "vay_tay"
+    },
+    {
+      "who": "A",
+      "say": "Muốn hỏi nhà vệ sinh ở đâu, chọn câu nào?",
+      "mark": "quiz_q",
+      "tag": "Câu 1/4",
+      "options": [
+        "Where is WC?",
+        "Where is the restroom?",
+        "Toilet where?"
+      ],
+      "answer": 1
+    },
+    {
+      "who": "B",
+      "native": "Where is the restroom?",
+      "meaning": "Nhà vệ sinh ở đâu?",
+      "mark": "dung",
+      "tag": "Bơ 1 điểm",
+      "action": "vui_mung"
+    },
+    {
+      "who": "A",
+      "say": "Muốn xin hoá đơn, chọn câu nào?",
+      "mark": "quiz_q",
+      "tag": "Câu 2/4",
+      "options": [
+        "Can I get the bill?",
+        "Give me paper",
+        "Money paper please"
+      ],
+      "answer": 0
+    },
+    {
+      "who": "B",
+      "native": "Money paper please",
+      "meaning": "Sai rồi! Đúng là: Can I get the bill?",
+      "mark": "sai",
+      "picked": 2,
+      "tag": "Bơ 1 điểm",
+      "action": "buon"
+    },
+    {
+      "who": "A",
+      "say": "Hết phòng thì khách sạn nói gì?",
+      "mark": "quiz_q",
+      "tag": "Câu 3/4",
+      "options": [
+        "We are empty",
+        "We are fully booked",
+        "No room have"
+      ],
+      "answer": 1
+    },
+    {
+      "who": "B",
+      "native": "We are fully booked",
+      "meaning": "Chúng tôi hết phòng rồi",
+      "mark": "dung",
+      "tag": "Bơ 2 điểm",
+      "action": "vui_mung"
+    },
+    {
+      "who": "A",
+      "say": "Còn bạn được mấy điểm?",
+      "action": "vay_tay"
+    },
+    {
+      "who": "A",
+      "say": "Câu 4: muốn trả phòng khách sạn thì nói sao?",
+      "mark": "quiz_q",
+      "tag": "Câu 4/4",
+      "options": [
+        "I'd like to check out",
+        "I go out room",
+        "Room finish"
+      ],
+      "answer": 0
+    },
+    {
+      "who": "B",
+      "native": "I'd like to check out, please.",
+      "meaning": "Tôi muốn trả phòng ạ.",
+      "mark": "dung",
+      "tag": "Bơ 3 điểm",
+      "action": "vui_mung"
+    },
+    {
+      "who": "A",
+      "say": "Bơ được ba trên bốn. Còn bạn?",
+      "action": "chi_tay"
+    }
+  ]
+}

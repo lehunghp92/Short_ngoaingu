@@ -1,0 +1,85 @@
+{
+  "lang": "ko",
+  "style": "thu_thach",
+  "day": 1,
+  "series": "Thử thách 30 ngày",
+  "background": "van_phong",
+  "cast": {
+    "A": "co_giao",
+    "B": "bo"
+  },
+  "title": "Ngày 1/30: chào hỏi tiếng Hàn",
+  "description": "Thử thách 30 ngày nói tiếng Hàn. Ngày 1: 3 câu chào hỏi.",
+  "turns": [
+    {
+      "who": "A",
+      "say": "Ngày 1: ba câu chào hỏi!"
+    },
+    {
+      "who": "A",
+      "native": "안녕하세요",
+      "meaning": "Xin chào",
+      "mark": "dung",
+      "tag": "Câu 1/3",
+      "shadow": 2.5
+    },
+    {
+      "who": "A",
+      "native": "처음 뵙겠습니다",
+      "meaning": "Rất vui được gặp lần đầu",
+      "mark": "dung",
+      "tag": "Câu 2/3",
+      "shadow": 2.5
+    },
+    {
+      "who": "A",
+      "native": "잘 부탁드립니다",
+      "meaning": "Mong được giúp đỡ",
+      "mark": "dung",
+      "tag": "Câu 3/3",
+      "shadow": 2.5
+    },
+    {
+      "who": "A",
+      "say": "Kiểm tra nhanh: câu nào là 'Xin chào'?",
+      "mark": "quiz_q",
+      "tag": "Quiz",
+      "options": [
+        "감사합니다",
+        "안녕하세요",
+        "죄송합니다"
+      ],
+      "answer": 1
+    },
+    {
+      "who": "B",
+      "say": "Cô ơi, với bạn bè cũng nói 안녕하세요 ạ?",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "A",
+      "native": "안녕",
+      "meaning": "Chào (với bạn thân)",
+      "mark": "tu",
+      "tag": "Thêm"
+    },
+    {
+      "who": "A",
+      "say": "Với người lớn, luôn dùng 안녕하세요 nhé!",
+      "action": "chi_tay"
+    },
+    {
+      "who": "B",
+      "native": "안녕하세요",
+      "meaning": "Xin chào",
+      "mark": "dung",
+      "tag": "Quiz",
+      "action": "vui_mung"
+    },
+    {
+      "who": "A",
+      "say": "Mai ngày 2 nhé!",
+      "action": "vay_tay"
+    }
+  ]
+}

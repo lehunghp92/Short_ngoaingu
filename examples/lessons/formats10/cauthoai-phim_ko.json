@@ -1,0 +1,117 @@
+{
+  "lang": "ko",
+  "style": "cau_thoai",
+  "series": "Học qua phim Hàn",
+  "episode": 1,
+  "background": "phong_khach",
+  "cast": {
+    "A": "bo",
+    "B": "mai"
+  },
+  "title": "3 câu thoại phim Hàn nghe hoài mà chưa hiểu hết",
+  "description": "Tách từng từ trong câu thoại quen thuộc của phim Hàn và dùng lại ngoài đời.",
+  "turns": [
+    {
+      "who": "A",
+      "say": "Câu này trong phim Hàn nghĩa là gì?",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "B",
+      "say": "Câu kinh điển khi nam chính bảo vệ nữ chính.",
+      "breakdown": {
+        "source": "Phim tình cảm Hàn",
+        "sentence": "내가 지켜 줄게",
+        "meaning": "Anh sẽ bảo vệ em",
+        "words": [
+          {
+            "w": "내가",
+            "m": "tôi (chủ ngữ)"
+          },
+          {
+            "w": "지켜",
+            "m": "bảo vệ"
+          },
+          {
+            "w": "줄게",
+            "m": "sẽ làm cho"
+          }
+        ]
+      }
+    },
+    {
+      "who": "A",
+      "native": "숙제 도와 줄게",
+      "meaning": "Mình sẽ giúp bạn làm bài tập",
+      "mark": "dung",
+      "action": "vui_mung"
+    },
+    {
+      "who": "B",
+      "say": "Còn câu này khi nhân vật sốc.",
+      "breakdown": {
+        "source": "Phim hài Hàn",
+        "sentence": "말도 안 돼",
+        "meaning": "Không thể nào!",
+        "words": [
+          {
+            "w": "말",
+            "m": "lời nói"
+          },
+          {
+            "w": "도",
+            "m": "cũng"
+          },
+          {
+            "w": "안 돼",
+            "m": "không được"
+          }
+        ]
+      }
+    },
+    {
+      "who": "A",
+      "native": "말도 안 돼! 벌써 월요일이야?",
+      "meaning": "Không thể nào! Đã thứ Hai rồi à?",
+      "mark": "dung",
+      "action": "bat_ngo",
+      "expression": "soc"
+    },
+    {
+      "who": "B",
+      "say": "Muốn học câu nào tiếp? Bình luận!",
+      "action": "vay_tay"
+    },
+    {
+      "who": "B",
+      "say": "Câu này nghe mãi trong phim tình cảm.",
+      "breakdown": {
+        "source": "Phim tình cảm Hàn",
+        "sentence": "보고 싶어",
+        "meaning": "Anh nhớ em",
+        "words": [
+          {
+            "w": "보고",
+            "m": "nhìn, gặp"
+          },
+          {
+            "w": "싶어",
+            "m": "muốn"
+          }
+        ]
+      }
+    },
+    {
+      "who": "A",
+      "say": "Nghĩa đen là muốn nhìn thấy em đó hả?",
+      "action": "bat_ngo"
+    },
+    {
+      "who": "A",
+      "native": "엄마, 보고 싶어요",
+      "meaning": "Mẹ ơi, con nhớ mẹ",
+      "mark": "dung",
+      "action": "buon"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "lang": "en",
+  "style": "tu_vung_nhanh",
+  "series": "Tiếng Anh phòng gym",
+  "episode": 1,
+  "background": "thanh_pho",
+  "cast": {
+    "A": "ban_gym",
+    "B": "bo"
+  },
+  "title": "5 từ tiếng Anh phòng gym bạn phải biết",
+  "description": "5 từ vựng tiếng Anh ở phòng gym trong 45 giây.",
+  "turns": [
+    {
+      "who": "A",
+      "say": "Năm từ tiếng Anh ở phòng gym mà ai cũng phải biết!",
+      "action": "vui_mung",
+      "expression": "vui"
+    },
+    {
+      "who": "A",
+      "say": "Từ đầu tiên, khi hít đất:",
+      "native": "push-up",
+      "meaning": "chống đẩy / hít đất",
+      "mark": "tu",
+      "tag": "Từ 1/5",
+      "action": "chi_tay"
+    },
+    {
+      "who": "B",
+      "say": "Hít đất thì mình làm được đúng ba cái thôi!",
+      "action": "buon",
+      "expression": "buon"
+    },
+    {
+      "who": "A",
+      "say": "Tiếp theo, bài gánh tạ ngồi xuống:",
+      "native": "squat",
+      "meaning": "bài squat, ngồi xổm gánh tạ",
+      "mark": "tu",
+      "tag": "Từ 2/5",
+      "action": "chi_tay"
+    },
+    {
+      "who": "B",
+      "say": "Nghe thôi đã thấy mỏi chân rồi!",
+      "action": "run_so",
+      "expression": "soc"
+    },
+    {
+      "who": "A",
+      "say": "Mỗi lần lặp lại động tác gọi là:",
+      "native": "rep",
+      "meaning": "một lần lặp lại động tác",
+      "mark": "tu",
+      "tag": "Từ 3/5",
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "say": "Còn một nhóm nhiều lần lặp lại gọi là:",
+      "native": "set",
+      "meaning": "một hiệp tập",
+      "mark": "tu",
+      "tag": "Từ 4/5",
+      "action": "chi_tay"
+    },
+    {
+      "who": "B",
+      "say": "Vậy rep là lần, set là hiệp, dễ nhớ ghê!",
+      "action": "suy_nghi",
+      "expression": "nghi"
+    },
+    {
+      "who": "A",
+      "say": "Ví dụ, ba hiệp mười lần là:",
+      "native": "three sets of ten reps",
+      "meaning": "ba hiệp, mỗi hiệp mười lần",
+      "mark": "dung",
+      "action": "vay_tay"
+    },
+    {
+      "who": "A",
+      "say": "Từ cuối, khi cần người giữ tạ giúp:",
+      "native": "Can you spot me?",
+      "meaning": "Bạn đỡ tạ giúp tôi được không?",
+      "mark": "tu",
+      "tag": "Từ 5/5",
+      "action": "chi_tay"
+    },
+    {
+      "who": "B",
+      "say": "Câu này phải nhớ kỹ để không bị đè tạ!",
+      "action": "bat_ngo",
+      "expression": "soc"
+    },
+    {
+      "who": "A",
+      "say": "Nhắc lại năm từ nhé:",
+      "native": "push-up, squat, rep, set, spot",
+      "meaning": "hít đất, squat, lần, hiệp, đỡ tạ",
+      "mark": "tu",
+      "action": "vay_tay"
+    },
+    {
+      "who": "A",
+      "say": "Lưu video lại, lần sau vào gym nói tiếng Anh luôn nhé!",
+      "action": "vay_tay",
+      "expression": "vui",
+      "clear_card": true
+    }
+  ]
+}

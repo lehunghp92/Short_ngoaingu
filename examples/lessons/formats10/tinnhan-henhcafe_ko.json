@@ -1,0 +1,114 @@
+{
+  "lang": "ko",
+  "style": "chat",
+  "chat_app": "kakao",
+  "series": "Nhắn tin tiếng Hàn",
+  "episode": 1,
+  "background": "quan_ca_phe",
+  "cast": {
+    "A": "bo",
+    "B": "mai"
+  },
+  "title": "Rủ bạn Hàn đi cà phê qua KakaoTalk",
+  "description": "Nhắn tin tiếng Hàn tự nhiên: rủ đi cà phê, hẹn giờ, trả lời 'ㅋㅋ'.",
+  "turns": [
+    {
+      "who": "N",
+      "say": "Rủ bạn Hàn đi cà phê, nhắn sao?"
+    },
+    {
+      "who": "A",
+      "native": "뭐 해?",
+      "meaning": "Đang làm gì đó?",
+      "mark": "thoai",
+      "typing": "other"
+    },
+    {
+      "who": "B",
+      "native": "그냥 집에 있어 ㅋㅋ",
+      "meaning": "Ở nhà thôi haha",
+      "mark": "thoai"
+    },
+    {
+      "who": "N",
+      "say": "ㅋㅋ là tiếng cười, giống haha của mình."
+    },
+    {
+      "who": "A",
+      "native": "커피 마실래?",
+      "meaning": "Đi uống cà phê không?",
+      "mark": "thoai"
+    },
+    {
+      "who": "B",
+      "native": "좋아! 몇 시에?",
+      "meaning": "Được! Mấy giờ?",
+      "mark": "thoai"
+    },
+    {
+      "who": "A",
+      "native": "3시 어때?",
+      "meaning": "3 giờ được không?",
+      "mark": "thoai"
+    },
+    {
+      "who": "N",
+      "say": "Muốn hỏi được không, thêm 어때 vào sau là xong."
+    },
+    {
+      "who": "B",
+      "native": "콜! 이따 봐~",
+      "meaning": "Chốt! Lát gặp nhé~",
+      "mark": "thoai"
+    },
+    {
+      "who": "A",
+      "native": "어디서 만날까?",
+      "meaning": "Gặp nhau ở đâu?",
+      "mark": "thoai"
+    },
+    {
+      "who": "B",
+      "native": "학교 앞 카페 어때?",
+      "meaning": "Quán cà phê trước trường nhé?",
+      "mark": "thoai"
+    },
+    {
+      "who": "A",
+      "native": "ㅇㅇ 좋아!",
+      "meaning": "Ừ, được đó!",
+      "mark": "thoai"
+    },
+    {
+      "who": "N",
+      "say": "ㅇㅇ là viết tắt của 응응, nghĩa là ừ ừ."
+    },
+    {
+      "who": "B",
+      "native": "늦지 마 ㅎㅎ",
+      "meaning": "Đừng đến muộn nha hihi",
+      "mark": "thoai",
+      "typing": "other"
+    },
+    {
+      "who": "A",
+      "native": "알겠어! 내가 커피 살게",
+      "meaning": "Biết rồi! Mình mời cà phê",
+      "mark": "thoai"
+    },
+    {
+      "who": "B",
+      "native": "진짜? 고마워 ㅎㅎ",
+      "meaning": "Thật hả? Cảm ơn nha",
+      "mark": "thoai"
+    },
+    {
+      "who": "N",
+      "say": "내가 살게 nghĩa là để mình trả, câu hay dùng khi mời bạn."
+    },
+    {
+      "who": "N",
+      "say": "콜 là chốt kèo. Bạn trả lời sao?"
+    }
+  ]
+}

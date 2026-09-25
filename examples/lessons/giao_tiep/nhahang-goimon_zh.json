@@ -1,0 +1,23 @@
+{
+  "lang": "zh", "style": "giao_tiep", "series": "Tiếng Trung đời thường", "episode": 1, "background": "nha_hang",
+  "cast": {"A": "bo", "B": "dau_bep"},
+  "title": "Đi ăn ở Trung Quốc: gọi mì và tính tiền",
+  "description": "Tình huống thật ở nhà hàng Trung Quốc: gọi mì bò, gọi nước, tính tiền, trả thẻ.",
+  "turns": [
+    {"who": "N", "say": "Đói bụng ở Trung Quốc? Vào quán gọi món thế này nhé!"},
+    {"who": "B", "native": "欢迎光临！几位？", "meaning": "Hoan nghênh quý khách! Mấy người ạ?", "mark": "thoai", "action": "vay_tay", "expression": "vui"},
+    {"who": "A", "native": "一位。", "meaning": "Một người.", "mark": "thoai", "action": "chi_tay"},
+    {"who": "A", "native": "我要一碗牛肉面。", "meaning": "Tôi muốn một bát mì bò.", "mark": "thoai", "action": "chi_tay", "item": "bat_pho", "price": "¥25"},
+    {"who": "N", "say": "Bát là 碗, nên một bát mì bò là 一碗牛肉面.", "item": "bat_pho"},
+    {"who": "B", "native": "要辣的吗？", "meaning": "Có muốn cay không?", "mark": "thoai", "action": "suy_nghi", "item": "bat_pho"},
+    {"who": "A", "native": "不要辣，谢谢。", "meaning": "Không cay, cảm ơn.", "mark": "thoai", "action": "vay_tay"},
+    {"who": "B", "native": "还要别的吗？", "meaning": "Còn cần gì nữa không ạ?", "mark": "thoai", "action": "chi_tay"},
+    {"who": "A", "native": "再要一瓶水。", "meaning": "Cho thêm một chai nước.", "mark": "thoai", "action": "chi_tay", "item": "nuoc", "price": "¥3"},
+    {"who": "N", "say": "Ăn xong, muốn tính tiền thì gọi to hai chữ này:"},
+    {"who": "A", "native": "买单！", "meaning": "Tính tiền!", "mark": "dung", "repeat": true, "action": "vay_tay", "item": "hoa_don"},
+    {"who": "B", "native": "一共二十八块。", "meaning": "Tổng cộng hai mươi tám tệ.", "mark": "thoai", "action": "chi_tay", "item": "hoa_don", "price": "¥28"},
+    {"who": "A", "native": "可以刷卡吗？", "meaning": "Quẹt thẻ được không?", "mark": "thoai", "action": "chi_tay", "item": "the_ngan_hang"},
+    {"who": "B", "native": "可以！", "meaning": "Được ạ!", "mark": "thoai", "action": "vui_mung", "expression": "vui", "item": "the_ngan_hang"},
+    {"who": "N", "say": "Lưu lại để lần sau tự gọi món nhé!", "clear_card": true}
+  ]
+}

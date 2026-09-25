@@ -1,0 +1,99 @@
+{
+  "lang": "ko",
+  "style": "phim_bo",
+  "series": "Bơ lạc ở Seoul",
+  "episode": 2,
+  "background": "ben_xe_buyt",
+  "cast": {
+    "A": "du_khach",
+    "B": "mai"
+  },
+  "previously": "Bơ xuống sân bay Incheon nhưng lỡ chuyến xe về khách sạn.",
+  "next": "Bơ đến khách sạn nhưng phòng đã bị người khác đặt mất!",
+  "title": "Bơ lạc ở Seoul — Tập 2: Hỏi đường bến xe buýt",
+  "description": "Phim bộ học tiếng Hàn: hỏi đường, hỏi xe buýt, cảm ơn.",
+  "turns": [
+    {
+      "who": "N",
+      "say": "Bơ đứng giữa bến xe, không biết đi xe nào."
+    },
+    {
+      "who": "A",
+      "native": "저기요, 명동 가는 버스 어디서 타요?",
+      "meaning": "Xin lỗi, xe buýt đi Myeongdong bắt ở đâu ạ?",
+      "mark": "thoai",
+      "action": "chi_tay"
+    },
+    {
+      "who": "N",
+      "say": "저기요 là câu gọi người lạ lịch sự, rất hay dùng."
+    },
+    {
+      "who": "B",
+      "native": "저쪽에서 405번 타세요.",
+      "meaning": "Đi xe số 405 ở đằng kia nhé.",
+      "mark": "thoai",
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "native": "얼마나 걸려요?",
+      "meaning": "Mất bao lâu ạ?",
+      "mark": "thoai",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "B",
+      "native": "삼십 분쯤 걸려요.",
+      "meaning": "Khoảng 30 phút.",
+      "mark": "thoai"
+    },
+    {
+      "who": "A",
+      "native": "정말 감사합니다!",
+      "meaning": "Thật sự cảm ơn ạ!",
+      "mark": "dung",
+      "action": "vui_mung"
+    },
+    {
+      "who": "A",
+      "native": "이 버스 명동 가요?",
+      "meaning": "Xe này đi Myeongdong không ạ?",
+      "mark": "thoai",
+      "action": "chi_tay"
+    },
+    {
+      "who": "B",
+      "native": "네, 맞아요. 카드 찍으세요.",
+      "meaning": "Vâng, đúng rồi. Quẹt thẻ đi ạ.",
+      "mark": "thoai"
+    },
+    {
+      "who": "N",
+      "say": "Lên xe buýt ở Hàn, nhớ quẹt thẻ cả lúc lên và lúc xuống."
+    },
+    {
+      "who": "A",
+      "native": "여기서 내려요?",
+      "meaning": "Xuống ở đây ạ?",
+      "mark": "thoai",
+      "action": "suy_nghi"
+    },
+    {
+      "who": "B",
+      "native": "아니요, 다음 정류장이에요.",
+      "meaning": "Không, là trạm tiếp theo.",
+      "mark": "thoai",
+      "action": "chi_tay"
+    },
+    {
+      "who": "N",
+      "say": "정류장 là trạm xe buýt, 다음 là tiếp theo."
+    },
+    {
+      "who": "N",
+      "say": "Bơ lên xe, nhưng hình như có gì đó không ổn…",
+      "action": "bat_ngo"
+    }
+  ]
+}

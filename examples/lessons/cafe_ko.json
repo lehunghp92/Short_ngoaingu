@@ -1,0 +1,18 @@
+{
+  "lang": "ko", "series": "Tiếng Hàn đi cà phê", "episode": 1, "topic_key": "cafe",
+  "title": "Gọi cà phê ở Hàn: nói sao cho khỏi bị cười?",
+  "description": "Bơ và Mai học cách gọi cà phê lịch sự bằng tiếng Hàn. Series Tiếng Hàn đi cà phê tập 1.",
+  "turns": [
+    {"who": "A", "say": "Mai ơi, sang Hàn gọi cà phê mà nói sai thì quê lắm!", "action": "run_so", "expression": "soc"},
+    {"who": "B", "say": "Nhiều bạn hay nói thế này, nghe rất trống không:", "native": "커피 줘.", "meaning": "Đưa cà phê đây.", "mark": "sai", "action": "chi_tay"},
+    {"who": "A", "say": "Ơ, mình vẫn nói y như vậy mà!", "action": "bat_ngo"},
+    {"who": "B", "say": "Hãy nói lịch sự thế này nhé:", "native": "아메리카노 한 잔 주세요.", "meaning": "Cho tôi một ly Americano.", "mark": "dung", "action": "chi_tay", "expression": "vui"},
+    {"who": "A", "say": "Vậy chữ 주세요 ở cuối là gì thế?", "action": "suy_nghi"},
+    {"who": "B", "say": "Nghĩa là xin hãy cho tôi. Gọi món gì cũng thêm vào nhé.", "action": "vay_tay"},
+    {"who": "B", "say": "Nhân viên sẽ hỏi bạn uống ở đây hay mang đi:", "native": "드시고 가세요?", "meaning": "Uống ở đây hay mang đi ạ?", "mark": "tu", "action": "chi_tay"},
+    {"who": "A", "say": "Đố bạn: muốn mang đi thì nói thế nào?", "mark": "quiz_q", "action": "suy_nghi"},
+    {"who": "B", "say": "Đáp án là:", "native": "포장해 주세요.", "meaning": "Cho tôi mang đi.", "mark": "dung", "action": "vui_mung", "expression": "vui"},
+    {"who": "A", "say": "Dễ quá! Lần sau sang Hàn mình tự gọi luôn!", "action": "vui_mung", "expression": "vui", "clear_card": true},
+    {"who": "B", "say": "Lưu video lại để ôn, và bình luận chủ đề bạn muốn học nhé!", "action": "vay_tay", "expression": "vui"}
+  ]
+}

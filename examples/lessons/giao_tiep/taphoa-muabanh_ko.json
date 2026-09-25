@@ -1,0 +1,22 @@
+{
+  "lang": "ko", "style": "giao_tiep", "series": "Tiếng Hàn đời thường", "episode": 1, "background": "tiem_tap_hoa",
+  "cast": {"A": "du_khach", "B": "co_tap_hoa"},
+  "title": "Đi tạp hoá ở Hàn: mua bánh và hỏi giá",
+  "description": "Tình huống thật: vào tiệm tạp hoá Hàn Quốc, hỏi giá bánh, mua sữa và trả bằng thẻ.",
+  "turns": [
+    {"who": "N", "say": "Vào tiệm tạp hoá ở Hàn, muốn mua bánh thì nói sao?"},
+    {"who": "B", "native": "어서 오세요!", "meaning": "Xin mời vào!", "mark": "thoai", "action": "vay_tay", "expression": "vui"},
+    {"who": "A", "native": "이 과자 얼마예요?", "meaning": "Bánh quy này bao nhiêu tiền?", "mark": "thoai", "action": "chi_tay", "item": "banh_quy"},
+    {"who": "N", "say": "Chỉ vào món đồ và nói: cái này bao nhiêu tiền.", "item": "banh_quy"},
+    {"who": "B", "native": "이천 원이에요.", "meaning": "Hai nghìn won ạ.", "mark": "thoai", "action": "chi_tay", "item": "banh_quy", "price": "2.000원"},
+    {"who": "A", "native": "우유도 있어요?", "meaning": "Có sữa không ạ?", "mark": "thoai", "action": "suy_nghi", "item": "sua"},
+    {"who": "B", "native": "네, 저기 있어요.", "meaning": "Vâng, ở đằng kia ạ.", "mark": "thoai", "action": "chi_tay", "item": "sua", "price": "1.500원"},
+    {"who": "A", "native": "이거 두 개 주세요.", "meaning": "Cho tôi hai cái này.", "mark": "thoai", "action": "chi_tay", "item": "sua"},
+    {"who": "N", "say": "Số lượng hai cái nói là 두 개. Rất hay dùng khi mua đồ!"},
+    {"who": "B", "native": "모두 오천 원이에요.", "meaning": "Tất cả năm nghìn won ạ.", "mark": "thoai", "action": "chi_tay", "item": "hoa_don", "price": "5.000원"},
+    {"who": "A", "native": "카드 돼요?", "meaning": "Trả bằng thẻ được không?", "mark": "thoai", "action": "chi_tay", "item": "the_ngan_hang"},
+    {"who": "B", "native": "네, 돼요. 감사합니다!", "meaning": "Vâng, được ạ. Cảm ơn!", "mark": "thoai", "action": "vui_mung", "expression": "vui", "item": "the_ngan_hang"},
+    {"who": "N", "say": "Câu quan trọng nhất hôm nay:", "native": "이거 얼마예요?", "meaning": "Cái này bao nhiêu tiền?", "mark": "dung", "repeat": true},
+    {"who": "N", "say": "Lưu lại để đi chợ Hàn thật tự tin nhé!", "clear_card": true}
+  ]
+}

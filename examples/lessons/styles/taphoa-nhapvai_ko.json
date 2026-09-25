@@ -1,0 +1,109 @@
+{
+  "lang": "ko",
+  "style": "nhap_vai",
+  "series": "Tiếng Hàn đi chợ",
+  "episode": 1,
+  "background": "quan_ca_phe",
+  "cast": {
+    "A": "du_khach",
+    "B": "co_tap_hoa"
+  },
+  "title": "Đi tạp hoá ở Hàn: hỏi giá và mặc cả",
+  "description": "Nhập vai tình huống mua đồ ở tiệm tạp hoá Hàn Quốc. Series Tiếng Hàn đi chợ tập 1.",
+  "turns": [
+    {
+      "who": "N",
+      "say": "Đi chợ ở Hàn mà chỉ biết chỉ tay? Xem cảnh này nhé!"
+    },
+    {
+      "who": "B",
+      "native": "어서 오세요!",
+      "meaning": "Xin mời vào!",
+      "mark": "thoai",
+      "action": "vay_tay",
+      "expression": "vui"
+    },
+    {
+      "who": "A",
+      "native": "이거 얼마예요?",
+      "meaning": "Cái này bao nhiêu tiền?",
+      "mark": "thoai",
+      "action": "chi_tay"
+    },
+    {
+      "who": "N",
+      "say": "Muốn hỏi giá, chỉ cần chỉ vào món đồ và nói câu này."
+    },
+    {
+      "who": "B",
+      "native": "오천 원이에요.",
+      "meaning": "Năm nghìn won ạ.",
+      "mark": "thoai",
+      "action": "chi_tay"
+    },
+    {
+      "who": "N",
+      "say": "Năm nghìn won, tức khoảng chín mươi nghìn đồng Việt Nam."
+    },
+    {
+      "who": "A",
+      "native": "좀 깎아 주세요.",
+      "meaning": "Bớt cho tôi một chút nhé.",
+      "mark": "thoai",
+      "action": "suy_nghi",
+      "expression": "vui"
+    },
+    {
+      "who": "N",
+      "say": "Ở chợ truyền thống, xin bớt giá là chuyện rất bình thường."
+    },
+    {
+      "who": "B",
+      "native": "그럼 사천 원만 주세요.",
+      "meaning": "Vậy đưa bốn nghìn won thôi.",
+      "mark": "thoai",
+      "action": "vui_mung",
+      "expression": "vui"
+    },
+    {
+      "who": "A",
+      "native": "감사합니다!",
+      "meaning": "Cảm ơn ạ!",
+      "mark": "thoai",
+      "action": "vui_mung",
+      "expression": "vui"
+    },
+    {
+      "who": "B",
+      "native": "봉투 필요하세요?",
+      "meaning": "Bạn có cần túi không?",
+      "mark": "thoai",
+      "action": "chi_tay"
+    },
+    {
+      "who": "A",
+      "native": "네, 주세요.",
+      "meaning": "Vâng, cho tôi xin.",
+      "mark": "thoai",
+      "action": "vui_mung",
+      "expression": "vui"
+    },
+    {
+      "who": "N",
+      "say": "Ở Hàn, túi nilon thường phải trả thêm vài chục won đấy!"
+    },
+    {
+      "who": "N",
+      "say": "Câu quan trọng nhất hôm nay là câu hỏi giá:",
+      "native": "이거 얼마예요?",
+      "meaning": "Cái này bao nhiêu tiền?",
+      "mark": "dung",
+      "repeat": true
+    },
+    {
+      "who": "N",
+      "say": "Lưu lại để đi chợ Hàn thật tự tin nhé!",
+      "clear_card": true
+    }
+  ]
+}
